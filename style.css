@@ -1,0 +1,58 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #f9e8e8;
+    margin: 0;
+    padding: 0;
+    color: #d23c3c;
+}
+
+.header {
+    background-color: #d23c3c;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 5px solid #3a9428;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.tradition {
+    background-color: white;
+    border: 3px solid #3a9428;
+    border-radius: 15px;
+    width: 250px;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 5px 5px 10px #888888;
+}
+
+.tradition h2 {
+    color: #d23c3c;
+    margin-top: 0;
+}
+
+.tradition img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border: 2px solid #d23c3c;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.tradition p {
+    color: #333;
+    font-size: 0.9em;
+}
